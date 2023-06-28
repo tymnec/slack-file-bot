@@ -5,3 +5,7 @@ import (
 	"os"
 	"github.com/slack-go/slack"
 )
+
+func main(){
+	
+}
