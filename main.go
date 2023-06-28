@@ -13,7 +13,7 @@ func main() {
 	api := slack.New(os.Getenv("SLACK_BOT_TOKEN"))
 	channelArray := []string{os.Getenv("CHANNEL_ID")}
 
-	fileArray := []string{""}
+	fileArray := []string{"Zero.pdf"}
 
 	for i := 0; i < len(fileArray); i++ {
 		params := slack.FileUploadParameters{
